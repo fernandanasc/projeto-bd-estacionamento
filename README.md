@@ -82,12 +82,9 @@ A seção 4 mostra as restrições do banco recusando dados inválidos (cartão 
 │   ├── der_v2.drawio                 DER editável no draw.io
 │   ├── modelo_logico_dbdiagram.png   modelo lógico (tabelas)
 │   └── dbdiagram_v2.dbml             código do modelo lógico para o dbdiagram.io
-├── sql/
-│   ├── 01_criar_bd.sql               tipos, tabelas, restrições e view
-│   ├── 02_popular_bd.sql             dados de exemplo
-│   ├── 03_consultas.sql              consultas de exemplo
-│   └── 04_testes_restricoes.sql      comandos que devem falhar
-└── scripts/
-    ├── gerar_der.py                  gera o DER (png e drawio)
-    └── gerar_notebook.py             gera o notebook e os arquivos .sql
+└── sql/
+    ├── 01_criar_bd.sql               tipos, tabelas, restrições e view
+    ├── 02_popular_bd.sql             dados de exemplo
+    ├── 03_consultas.sql              consultas de exemplo
+    └── 04_testes_restricoes.sql      comandos que devem falhar
 ```
